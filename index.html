@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alessio's Pizzaria</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#secao1"><i data-feather="home"></i> Home</a></li>
+          <li><a href="#secao2"><i data-feather="Cardápio"></i> Cardápio</a></li>
+          <li><a href="#secao3"><i data-feather="Sobre Nós"></i> Sobre Nós</a></li>
+          <li><a href="#secao4"><i data-feather="Contato"></i> Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="secao1" class="hero">
+        <h2> Bem-vindo à Alessio's</h2>
+        <h3>Saborosas pizzas feitas especialmente para você!</h3>
+        <a href="#secao2" class="btn-cardapio"> Ver Cardápio</a>
+      </section>
+
+      <section id="secao2" class="cardapio">
+        <h2><i data-feather="star"></i> Cardápio</h2>
+      
+        <div class="pizzas-grid">
+          <div class="pizza-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KFDZkjY8zVpr1ftr2n7Rm_OLf0Eq3inoxw&s" alt="Pizza Margherita" />
+            <div class="pizza-info">
+              <h3>Pizza Margherita</h3>
+              <p>Molho de tomate, mussarela, manjericão fresco.</p>
+            </div>
+          </div>
+      
+          <div class="pizza-card">
+            <img src="img/pizza-pepperoni.jpg" alt="Pizza Pepperoni" />
+            <div class="pizza-info">
+              <h3>Pizza Pepperoni</h3>
+              <p>Molho de tomate, pepperoni, queijo mussarela.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="secao3" class="sobre">
+        <h2><i data-feather="user"></i> Sobre eu, criador do site</h2>
+        <p>
+          Olá! Eu sou o Vitor, criador deste site. Particularmente, gosto muito de aranhas e acho que seria muito legal se mais pessoas pudessem conhecer melhor esse universo.
+        </p>
+      </section>
+
+      <section id="secao4" class="contato">
+        <h2><i data-feather="message-circle"></i> Contato</h2>
+        <p>Fale com a comigo:</p>
+        <form>
+          <input type="text" placeholder="Seu nome" required />
+          <input type="email" placeholder="Seu e-mail" required />
+          <textarea rows="4" placeholder="Sua mensagem" required></textarea>
+          <button type="submit"><i data-feather="send"></i> Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div style="margin-bottom: 10px;">
+        <a
+          href="https://github.com/VitorLimaSiqueira"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i data-feather="github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/low._fps?igsh=MXJ2dGhtbzIwcjVnbw=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i data-feather="instagram"></i>
+        </a>
+        <a
+          href="https://x.com/Noryoin_?t=JsgEtq1WWdptPyKTZZVoVw&s=09"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i data-feather="twitter"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Aracpedia. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
