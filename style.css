@@ -100,7 +100,7 @@
     background-color: #f3f3f3;
     color: #1a1a1a;
     border-radius: 12px;
-    width: 500px;
+    width: 700px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -135,7 +135,7 @@
   .sobre {
     color: white;
     padding: auto;
-    background-image: url(https://pizzariaofornocascavel.com.br/wp-content/uploads/2021/04/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://pizzariaofornocascavel.com.br/wp-content/uploads/2021/04/banner.jpg);
   }
   
   footer {
