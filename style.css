@@ -83,7 +83,8 @@
   
   .cardapio h2,
   .sobre h2,
-  .contato h2 {
+  .contato h2,
+  .sugestao h2 {
     font-size: 5rem;
     margin-bottom: 20px;
   }
@@ -145,3 +146,90 @@
     padding: 20px;
     font-size: 0.9rem;
   }  
+
+  .form-sugestao {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffe5d0;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .form-sugestao label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .form-sugestao input,
+  .form-sugestao select,
+  .form-sugestao textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .btn-enviar {
+    background-color: #007bff; /* azul */
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #005dc1;
+  }
+  
+  .contato {
+    background-color: white;
+    padding: 80px 20px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .contato h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .contato p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .contato-info {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contato-info a {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .contato-info a:hover {
+    text-decoration: underline;
+  }
+  

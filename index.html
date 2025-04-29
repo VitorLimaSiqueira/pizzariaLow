@@ -69,15 +69,58 @@
         <h3>Nossa Pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.</h3>
       </section>
 
+      <section id="secao5" class="sugestao">
+        <h2>Envie Sua Sugestão de Pizza</h2>
+        <div class="info">
+          <form class="form-sugestao">
+            <label for="nomePizza">Nome da Pizza:</label>
+            <input type="text" id="nomePizza" name="nomePizza" required />
+          
+            <label for="tipoPizza">Tipo de Pizza:</label>
+            <select id="tipoPizza" name="tipoPizza" required>
+              <option value="">Selecione</option>
+              <option value="salgada">Salgada</option>
+              <option value="doce">Doce</option>
+            </select>
+          
+            <label for="descricao">Descrição da Pizza:</label>
+            <textarea id="descricao" name="descricao" rows="3" required></textarea>
+          
+            <label for="ingredientes">Ingredientes principais:</label>
+            <textarea id="ingredientes" name="ingredientes" rows="3" required></textarea>
+          
+            <div class="checkbox-group">
+              <input type="checkbox" id="obrigatorio" name="obrigatorio" />
+              <label for="obrigatorio">Contém ingredientes obrigatórios (ex: queijo, molho, etc.)</label>
+            </div>
+          
+            <label for="valor">Valor sugerido (R$):</label>
+            <input type="number" id="valor" name="valor" min="0" step="0.01" required />
+          
+            <label for="cliente">Seu Nome (opcional):</label>
+            <input type="text" id="cliente" name="cliente" />
+          
+            <button type="submit" class="btn-enviar">Enviar Sugestão</button>
+          </form>
+          
+        </div>
+      </section>
+
       <section id="secao4" class="contato">
         <h2>Contato</h2>
-        <h3>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas</h3>
-
-        <h3>Endreço: Avenida Onze de Outubro, n° 123 Telefone: (11) 5555-5555</h3>
-        <h3>Centro, Cidade Qualquer/RJ CEP: 12345-678 E-mail:<a href="contato@alessios.pizza">contato@alessios.pizza</a></h3>
-        <h3>Hoário de Funcionamento:</h3>
-        <h3>Segunda a sábado: 11h00 ás 23h00 - Domingo: 16h00 ás 23h00</h3>
-      </section>  
+        <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
+      
+        <div class="contato-info">
+          <p><strong>Endereço:</strong> Avenida Onze de Outubro, nº 123<br>
+          Centro, Cidade Qualquer/RJ CEP: 12345-678</p>
+      
+          <p><strong>Telefone:</strong> (11) 5555-5555<br>
+          <strong>E-mail:</strong> <a href="mailto:contato@alessios.pizza">contato@alessios.pizza</a></p>
+      
+          <p><strong>Horário de Funcionamento:</strong><br>
+          Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</p>
+        </div>
+      </section>      
     </main>
 
     <footer>
