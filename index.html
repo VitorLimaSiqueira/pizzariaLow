@@ -73,9 +73,6 @@
         <h2>Envie Sua Sugestão de Pizza</h2>
         <div class="info">
           <form class="form-sugestao">
-            <label for="nomePizza">Nome da Pizza:</label>
-            <input type="text" id="nomePizza" name="nomePizza" required />
-          
             <label for="tipoPizza">Tipo de Pizza:</label>
             <select id="tipoPizza" name="tipoPizza" required>
               <option value="">Selecione</option>
@@ -86,19 +83,19 @@
             <label for="descricao">Descrição da Pizza:</label>
             <textarea id="descricao" name="descricao" rows="3" required></textarea>
           
-            <label for="ingredientes">Ingredientes principais:</label>
-            <textarea id="ingredientes" name="ingredientes" rows="3" required></textarea>
-          
             <div class="checkbox-group">
-              <input type="checkbox" id="obrigatorio" name="obrigatorio" />
-              <label for="obrigatorio">Contém ingredientes obrigatórios (ex: queijo, molho, etc.)</label>
+              <label>
+                <input type="checkbox" name="ingredientes[]" value="queijo" />
+                Queijo
+              </label>
+              <label>
+                <input type="checkbox" name="ingredientes[]" value="molho" />
+                Molho de tomate
+              </label>
             </div>
           
             <label for="valor">Valor sugerido (R$):</label>
             <input type="number" id="valor" name="valor" min="0" step="0.01" required />
-          
-            <label for="cliente">Seu Nome (opcional):</label>
-            <input type="text" id="cliente" name="cliente" />
           
             <button type="submit" class="btn-enviar">Enviar Sugestão</button>
           </form>
